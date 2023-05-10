@@ -1,0 +1,7 @@
+.d-item{
+    height: 650px;
+}
+.d-img{
+    height: 100%;
+    object-fit: cover;
+}
