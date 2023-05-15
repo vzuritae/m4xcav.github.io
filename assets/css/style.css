@@ -1,7 +1,11 @@
+body{
+    
+}
 .d-item{
     height: 650px;
 }
 .d-img{
     height: 100%;
     object-fit: cover;
+    filter: brightness(0.8);
 }
