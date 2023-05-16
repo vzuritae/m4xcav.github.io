@@ -22,6 +22,27 @@
 #scroll1{
     margin-top: 0;
 }
+
+
+.card-size {
+    height: 15rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: azure;
+    align-content: center;
+    text-align: justify;
+  text-justify: inter-word;
+  letter-spacing: 2px;
+  word-spacing: 0,3px;
+    
+}
+
+
+
+
+
+
+
 #Mis-trabajos .image-top {
     height: 250px;
     background-repeat: no-repeat;
