@@ -8,10 +8,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Maximo Cavero</title>
+    <link rel="icon" type="image/png" href="./assets/img/Logo.png" />
 </head>
 <body>
     <nav id="navbar-inicio" class="navbar navbar-dark bg-dark px-3">
-        <a class="navbar-brand" href="#">INICIO</a>
+        <a class="navbar-brand" href="#">Máximo Cavero</a>
         <ul class="nav nav-pills">
           <li class="nav-item">
             <a class="nav-link" href="#scroll1">Primero</a>
@@ -22,112 +23,116 @@
         </ul>
       </nav>
       <!-- SLIDE -->
-      <section class="content-slide">
-          <div id="carusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active d-item">
-                <img src="./assets/img/slide1.jpg" class="d-block w-100 d-img" alt="cerro-pozo-almonte">
-                <div class="carousel-caption d-none d-md-block">
-                  <div class="ms-auto col-12 col-md-6 ">
-                    <h1 class="display-1 fw-bold my-5 titulo">
-                        MÁXIMO<br>CAVERO
-                    </h1>
-                    <p class="my-5 titulo">
-                        experiencia en redes ethernet, fibra óptica, gestión de proyectos, programación en PHP; HTML5;
-                        bases de datos MySql y SQLserver.
-                        Sin ningún miedo a las alturas, eh instalado antenas de radiofrecuencia en torres de más de 
-                        20 metros, además de cámaras de seguridad análogas, IP y PTZ con switch POE y administrado NVR's. 
-                        también, creado redes de fibra óptica mono núcleo con conectores FC y fusionando hilos de fibra.
-                    </p>
+      <div class="container-fluid">
+        <div class="row">
+          <section class="content-slide">
+              <div id="carusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active d-item">
+                    <img src="./assets/img/slide1.jpg" class="d-block w-100 d-img" alt="cerro-pozo-almonte">
+                    <div class="carousel-caption d-none d-md-block">
+                      <div class="ms-auto col-12 col-md-6 ">
+                        <h1 class="display-1 fw-bold my-5 titulo">
+                            MÁXIMO<br>CAVERO
+                        </h1>
+                        <p class="my-5 titulo">
+                            experiencia en redes ethernet, fibra óptica, gestión de proyectos, programación en PHP; HTML5;
+                            bases de datos MySql y SQLserver.
+                            Sin ningún miedo a las alturas, eh instalado antenas de radiofrecuencia en torres de más de 
+                            20 metros, además de cámaras de seguridad análogas, IP y PTZ con switch POE y administrado NVR's. 
+                            también, creado redes de fibra óptica mono núcleo con conectores FC y fusionando hilos de fibra.
+                        </p>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item d-item">
+                    <img src="./assets/img/fondo.jpg" class="d-block w-100 d-img" alt="cerro-tarapaca">
+                  </div>
+                  <div class="carousel-item d-item">
+                    <img src="./assets/img/slide3.jpg" class="d-block w-100 d-img" alt="cerro-tarapaca">
+                  </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carusel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carusel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">siguiente</span>
+                </button>
               </div>
-              <div class="carousel-item d-item">
-                <img src="./assets/img/fondo.jpg" class="d-block w-100 d-img" alt="cerro-tarapaca">
+          </section>
+          <!-- SLIDE -->
+          <div data-bs-spy="scroll" data-bs-target="#navbar-inicio" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <div id="scroll1">
+              <section id="Mis-trabajos" class="p-5  bg-dark bg-opacity-75">
+              <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
+              <div class="row">
+                  <div class="col-12 col-sm-4 py-2">
+                      <div class="card">
+                          <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
+                          <div class="card-body">
+                              <h5 class="card-title fw-bold">Instalación de antena</h5>
+                              <p class="card-text">
+                                  Instalación de antena de radiofrecuencia en el techo de la sede de DIDECO
+                                  <br/>
+                                  2020 Pozo Almonte, Tarapacá, Chile. 
+                              </p>
+                              <button type="button" class="btn btn-outline-secondary">
+                                  Ver más
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-4 py-2">
+                      <div class="card">
+                          <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
+                          <div class="card-body">
+                              <h5 class="card-title fw-bold">Instalación de cámara de seguridad</h5>
+                              <p class="card-text">
+                                  Instalación de cámara de seguridad, proyecto de cámaras para la av. Comercio de la localidad de Pozo Almonte
+                                  <br/>
+                                  2022 Pozo Almonte, Tarapacá, Chile.
+                              </p>
+                              <button type="button" class="btn btn-outline-secondary">
+                                  Ver más
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-12 col-sm-4 py-2">
+                      <div class="card">
+                          <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
+                          <div class="card-body">
+                              <h5 class="card-title fw-bold">Instalación de antena Power Beam 5AC</h5>
+                              <p class="card-text">
+                                  Instalación de antena Power Beam 5AC en antena de más de 20 metros de altura para el enlace del proyecto de cámaras de seguridad de la av. Comercio de la localidad de Pozo Almonte 
+                                  <br/>
+                                  2022 Pozo Almonte, Tarapacá, Chile. 
+                              </p>
+                              <button type="button" class="btn btn-outline-secondary">
+                                  Ver más
+                              </button>
+                          </div>
+                      </div>
+                  </div>
               </div>
-              <div class="carousel-item d-item">
-                <img src="./assets/img/slide3.jpg" class="d-block w-100 d-img" alt="cerro-tarapaca">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carusel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carusel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">siguiente</span>
-            </button>
+          </section></div>
+            <h4 id="scroll2">Segundo encabezado</h4>
+            <p>...</p>
+            <h4 id="scroll3">Tercer encabezado</h4>
+            <p>...</p>
+            <h4 id="scroll4">Cuarto encabezado</h4>
+            <p>...</p>
+            <h4 id="scroll5">Quinto encabezado</h4>
+            <p>...</p>
           </div>
-      </section>
-      <!-- SLIDE -->
-      <div data-bs-spy="scroll" data-bs-target="#navbar-inicio" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-        <div id="scroll1">
-          <section id="Mis-trabajos" class="p-5  bg-dark bg-opacity-75">
-          <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
-          <div class="row">
-              <div class="col-12 col-sm-4 py-2">
-                  <div class="card">
-                      <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
-                      <div class="card-body">
-                          <h5 class="card-title fw-bold">Instalación de antena</h5>
-                          <p class="card-text">
-                              Instalación de antena de radiofrecuencia en el techo de la sede de DIDECO
-                              <br/>
-                              2020 Pozo Almonte, Tarapacá, Chile. 
-                          </p>
-                          <button type="button" class="btn btn-outline-secondary">
-                              Ver más
-                          </button>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-12 col-sm-4 py-2">
-                  <div class="card">
-                      <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
-                      <div class="card-body">
-                          <h5 class="card-title fw-bold">Instalación de cámara de seguridad</h5>
-                          <p class="card-text">
-                              Instalación de cámara de seguridad, proyecto de cámaras para la av. Comercio de la localidad de Pozo Almonte
-                              <br/>
-                              2022 Pozo Almonte, Tarapacá, Chile.
-                          </p>
-                          <button type="button" class="btn btn-outline-secondary">
-                              Ver más
-                          </button>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-12 col-sm-4 py-2">
-                  <div class="card">
-                      <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
-                      <div class="card-body">
-                          <h5 class="card-title fw-bold">Instalación de antena Power Beam 5AC</h5>
-                          <p class="card-text">
-                              Instalación de antena Power Beam 5AC en antena de más de 20 metros de altura para el enlace del proyecto de cámaras de seguridad de la av. Comercio de la localidad de Pozo Almonte 
-                              <br/>
-                              2022 Pozo Almonte, Tarapacá, Chile. 
-                          </p>
-                          <button type="button" class="btn btn-outline-secondary">
-                              Ver más
-                          </button>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section></div>
-        <h4 id="scroll2">Segundo encabezado</h4>
-        <p>...</p>
-        <h4 id="scroll3">Tercer encabezado</h4>
-        <p>...</p>
-        <h4 id="scroll4">Cuarto encabezado</h4>
-        <p>...</p>
-        <h4 id="scroll5">Quinto encabezado</h4>
-        <p>...</p>
-      </div>
+        </div>
+      </div>    
 </body>
 </html>
