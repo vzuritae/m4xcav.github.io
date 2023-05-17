@@ -14,13 +14,6 @@
 .d-img{
     height: 100%;
     object-fit: cover;
-    filter: brightness(0.7);
-}
-#scroll1{
-    background-image:url("../img/fondo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
     filter: brightness(0.8);
 }
 .titulo{
@@ -29,6 +22,8 @@
 #scroll1{
     margin-top: 0;
 }
+
+
 .card-size {
     height: 15rem;
     padding: 2rem;
@@ -47,7 +42,7 @@
     background-size: cover;
     background-position: center;
   }
-#scroll2 .image-top{
+#scroll3 .image-top{
     height: 250px;
     background-repeat: no-repeat;
     background-size: cover;
