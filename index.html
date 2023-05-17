@@ -14,48 +14,70 @@
         <a class="navbar-brand" href="#">INICIO</a>
         <ul class="nav nav-pills">
           <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading1">Primero</a>
+            <a class="nav-link" href="#scroll1">Primero</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#scrollspyHeading2">Segundo</a>
+            <a class="nav-link" href="#scroll2">Segundo</a>
           </li>
         </ul>
       </nav>
       <!-- SLIDE -->
       <section class="content-slide">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active d-item">
-                <img src="./assets/img/slide1.jpg" class="d-block w-100 d-img" alt="...">
-              </div>
-              <div class="carousel-item d-item">
-                <img src="./assets/img/slide2.jpg" class="d-block w-100 d-img" alt="...">
-              </div>
-              <div class="carousel-item d-item">
-                <img src="./assets/img/slide3.jpg" class="d-block w-100 d-img" alt="...">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active d-item">
+              <img src="./assets/img/slide1.jpg" class="d-block w-100 d-img" alt="cerro-san-estaban"/>
+              <div class="carousel-caption d-none d-md-block">
+                <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+                  <div class="container">
+                      <div class="ms-auto col-12 col-md-7 ">
+                          <h1 class="display-1 fw-bold my-5">
+                              ingeniero en<br>informática
+                          </h1>
+                          <p class="my-5">
+                              experiencia en redes ethernet, fibra óptica, gestión de proyectos, programación en PHP; HTML5; bases de datos MySql y SQLserver.
+          Sin ningún miedo a las alturas, eh instalado antenas de radiofrecuencia en torres de más de 20 metros, además de cámaras de seguridad análogas, IP y PTZ con switch POE y administrado NVR's. también, creado redes de fibra óptica mono núcleo con conectores FC y fusionando hilos de fibra.
+                          </p>
+                      </div>
+                  </div>
+              </header>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Siguiente</span>
-            </button>
+            <div class="carousel-item d-item">
+              <img src="./assets/img/fondo.jpg" class="d-block w-100 d-img" alt="cerro-tarapaca"/>
+            </div>
+            <div class="carousel-item d-item">
+              <img src="./assets/img/slide3.jpg" class="d-block w-100 d-img" alt="cerro-tarapaca"/>
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">siguiente</span>
+          </button>
+        </div>
       </section>
       <!-- SLIDE -->
       <div data-bs-spy="scroll" data-bs-target="#navbar-inicio" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-        <h4 id="scrollspyHeading1">Primer encabezado</h4>
+        <div id="scroll1">
+          <h4>Primer encabezado</h4>
+          <p>...</p>
+        </div>
+        <h4 id="scroll2">Segundo encabezado</h4>
         <p>...</p>
-        <h4 id="scrollspyHeading2">Segundo encabezado</h4>
+        <h4 id="scroll3">Tercer encabezado</h4>
         <p>...</p>
-        <h4 id="scrollspyHeading3">Tercer encabezado</h4>
+        <h4 id="scroll4">Cuarto encabezado</h4>
         <p>...</p>
-        <h4 id="scrollspyHeading4">Cuarto encabezado</h4>
-        <p>...</p>
-        <h4 id="scrollspyHeading5">Quinto encabezado</h4>
+        <h4 id="scroll5">Quinto encabezado</h4>
         <p>...</p>
       </div>
 </body>
